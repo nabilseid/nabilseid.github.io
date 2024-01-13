@@ -16,19 +16,19 @@ theme:
 
   palette:
     - scheme: default
-      primary: amber
-      accent: indigo
+      primary: lime
+      accent: lime
       toggle:
         icon: material/toggle-switch
         name: Switch to dark mode
     - scheme: slate
-      primary: amber
-      accent: indigo
+      primary: lime
+      accent: lime
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to light mode
   icon:
-    logo: material/library 
+    logo: material/home
 
 nav:
   - Home: index.md
