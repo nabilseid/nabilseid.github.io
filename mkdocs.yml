@@ -30,6 +30,11 @@ theme:
   icon:
     logo: material/library 
 
+nav:
+  - Home: index.md
+  - Blog:
+    - blog/index.md
+
 plugins:
   - search
   - blog
