@@ -1,25 +1,42 @@
 site_name: My Docs
 
+# Theme
 theme:
   name: material
-  palette: # color palette
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.path
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - search.share
 
-    # Palette toggle for automatic mode
-    - media: "(prefers-color-scheme)"
-      toggle:
-        icon: material/link
-        name: Switch to light mode
 
-    # Palette toggle for light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default 
+  palette:
+    - scheme: default
+      primary: amber
+      accent: indigo
       toggle:
         icon: material/toggle-switch
         name: Switch to dark mode
-
-    # Palette toggle for dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
+    - scheme: slate
+      primary: amber
+      accent: indigo
       toggle:
         icon: material/toggle-switch-off-outline
-        name: Switch to system preference
+        name: Switch to light mode
+  icon:
+    logo: material/library 
+
+plugins:
+  - search
+  - blog
+  - rss:
+      match_path: blog/posts/.* 
+      date_from_meta:
+        as_creation: date
+      categories:
+        - categories
+        - tags
