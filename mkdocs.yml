@@ -32,8 +32,10 @@ theme:
 
 nav:
   - Home: index.md
+  - athenaSQL: athenaSQL/index.md 
   - Blog:
     - blog/index.md
+  - About: about.md
 
 plugins:
   - search
