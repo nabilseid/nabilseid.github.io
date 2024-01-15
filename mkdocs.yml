@@ -37,6 +37,12 @@ nav:
     - blog/index.md
   - About: about.md
 
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+
 plugins:
   - search
   - blog
