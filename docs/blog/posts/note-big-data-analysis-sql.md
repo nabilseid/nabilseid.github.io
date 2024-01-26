@@ -33,6 +33,14 @@ Data is store unorganized in a data store. In order to make sense of the data an
 
 ## DBMS
 
+- Is a software that lets you organize and manage your data. It gives you an interface to store and retrieve data to and from a database and share your data.
+
+- A DBMS should have at list these four functionalities
+    - **Design** how your data is stored in the database. Different data sources will be separated and have their own features.
+    - **Update/Add** records into the database.
+    - **Retrieve** data from the database base to answer various questions.
+    - **Control access/Manage** your data. You need to be able to create accounts and manage who has access to a particular data.
+
 ## RDBMS
 
 - In 1970 F.E CODD's paper on relational models laid the foundation for relational databases.
