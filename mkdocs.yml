@@ -12,6 +12,10 @@ theme:
     - search.suggest
     - search.highlight
     - search.share
+    - content.code.copy
+    - content.code.select
+    - content.code.select
+    - content.code.annotate
 
 
   palette:
@@ -33,13 +37,27 @@ theme:
 nav:
   - Home: index.md
   - athenaSQL: athenaSQL/index.md 
+  - Cookbooks: 
+    - cookbooks/index.md 
+    - Bash: cookbooks/bash.md
+    - Python: cookbooks/python.md
   - Blog:
     - blog/index.md
   - About: about.md
 
 markdown_extensions:
+  # Admonition
   - admonition
   - pymdownx.details
+  - pymdownx.superfences
+
+  # Code blocks
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
   - pymdownx.superfences
 
 
