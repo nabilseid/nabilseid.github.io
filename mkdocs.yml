@@ -1,11 +1,10 @@
-site_name: My Docs
+site_name: 10 Birr
 
 # Theme
 theme:
   name: material
   features:
     - navigation.tabs
-    - navigation.tabs.sticky
     - navigation.sections
     - navigation.path
     - navigation.indexes
@@ -16,23 +15,22 @@ theme:
     - content.code.select
     - content.code.select
     - content.code.annotate
-
-
-  palette:
-    - scheme: default
-      primary: lime
-      accent: lime
+  
+  palette: 
+    - media: "(prefers-color-scheme: light)" # Light mode 
+      scheme: default
+      primary: white
       toggle:
         icon: material/toggle-switch
-        name: Switch to dark mode
-    - scheme: slate
-      primary: lime
-      accent: lime
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: dark)" # Dark mode
+      scheme: slate
+      primary: black
       toggle:
         icon: material/toggle-switch-off-outline
-        name: Switch to light mode
+        name: Switch to dark mode
   icon:
-    logo: material/home
+    logo: material/numeric-10
 
 nav:
   - Home: index.md
