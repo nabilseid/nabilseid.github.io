@@ -40,6 +40,7 @@ nav:
   - Cookbooks: 
     - cookbooks/index.md 
     - Bash: cookbooks/bash.md
+    - Javascript: cookbooks/javascript.md
     - Python: cookbooks/python.md
   - Blog:
     - blog/index.md

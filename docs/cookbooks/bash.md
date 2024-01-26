@@ -34,4 +34,31 @@ find . -name "*.egg-info" -type d -exec rm -rv {} \; #(2)!
 2.  Find and delete all dir that match the pattern.
     The `#!bash \;` at the end will result in `#!bash rm -rv file1;` `#!bash rm -rv file2;` ...
 
+### Difference between `#!bash $()` and `#!bash ${}`
 
+`#!bash $()` means first evaluate this and then evaluate the line.
+
+```bash 
+echo $(pwd)/myFile.txt
+# interpreted as
+echo /my/path/myFile.txt
+```
+
+`#!bash ${}` expands a variable.
+
+```bash
+MY_VAR=toto
+echo ${MY_VAR}/myFile.txt
+# interpreted as
+echo toto/myFile.txt
+```
+
+### Download all files in a directory using wget
+
+Pass the `#!bash -np` / `#!bash --no-parent`, `#!bash -r` / `#!bash --recursive` and `#!bash -R` / `#!bash --reject` options to wget - [stackoverflow](https://stackoverflow.com/a/273776/11450091)
+
+```bash
+wget --recursive --no-parent -R "index.html*" http://example.com/path/to/files/
+
+wget -r -np -R "index.html*" http://example.com/path/to/files/
+```
