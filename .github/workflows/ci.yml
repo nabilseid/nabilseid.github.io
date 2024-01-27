@@ -1,5 +1,5 @@
 # Sample workflow for building and deploying a MkDocs site to GitHub Pages
-name: Deploy MkDocs with GitHub Pages dependencies preinstalled
+name: Deploy Site
 
 on:
   # Runs on pushes targeting the default branch
@@ -35,7 +35,7 @@ jobs:
         with:
           python-version: '3.x'
       - name: Install required packages
-        run: pip install -r requirements.txt
+        run: pip install mkdocs-material 
       - name: Setup caching
         uses: actions/cache@v3
         with:
