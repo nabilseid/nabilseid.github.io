@@ -35,8 +35,9 @@ jobs:
         with:
           python-version: '3.x'
       - name: Install required packages
-        run: pip install mkdocs-material 
-        run: pip install mkdocs-rss-plugin
+        run: |
+          pip install mkdocs-material 
+          pip install mkdocs-rss-plugin
       - name: Setup caching
         uses: actions/cache@v3
         with:
