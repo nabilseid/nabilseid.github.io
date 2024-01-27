@@ -3,7 +3,7 @@ site_url: https://nabilseid.github.io
 site_description: I blend in my open source projects and notes.
 copyright: Made with ❤️  in Medeja Bet
 
-use_directory_urls: false
+use_directory_urls: true
 
 # Theme
 theme:
