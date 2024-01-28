@@ -34,9 +34,9 @@ theme:
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
-  icon:
-    logo: material/numeric-10
-    favicon: images/favicon.png
+  
+  logo: 'assets/images/favicon.png'
+  favicon: 'assets/images/favicon.png'
 
 nav:
   - Home: index.md
