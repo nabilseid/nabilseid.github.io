@@ -11,6 +11,8 @@ categories:
 
 At the time of writing Zero ETL is an integration tool that makes transactional data available in Redshift in near real time. This is useful if real time analytical data in Redshift is necessary. It support Aurora and RDS MySQL as data source.
 
+<!-- more -->
+
 ### What problem zero ETL solve?
 
 - Remove the complexity of ETL management, monitoring and maintenance

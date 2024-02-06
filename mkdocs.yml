@@ -1,4 +1,4 @@
-site_name: 10 Birr
+site_name: African Sun
 site_url: https://nabilseid.github.io
 site_description: I blend in my open source projects and notes.
 copyright: Made with ❤️  in Medeja Bet
@@ -35,7 +35,9 @@ theme:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
   
-  logo: 'assets/images/favicon.png'
+  icon:
+    logo: fontawesome/solid/mountain-sun
+
   favicon: 'assets/images/favicon.png'
 
 nav:
