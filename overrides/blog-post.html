@@ -1,0 +1,33 @@
+{% extends "main.html" %}
+
+{% import "partials/nav-item.html" as item with context %}
+
+<!-- Page content -->
+{% block container %}
+  <div class="md-content md-content--post" data-md-component="content">
+
+    <!-- Sidebar -->
+    <div
+      class="md-sidebar md-sidebar--post"
+      data-md-component="sidebar"
+      data-md-type="navigation"
+    >
+      <div class="md-sidebar__scrollwrap">
+        <div class="md-sidebar__inner md-post">
+
+          <!-- Table of contents, if integrated -->
+          {% if "toc.integrate" in features %}
+            {% include "partials/toc.html" %}
+          {% endif %}
+        </div>
+      </div>
+    </div>
+
+    <!-- Page content -->
+    <article class="md-content__inner md-typeset">
+      {% block content %}
+        {% include "partials/content.html" %}
+      {% endblock %}
+    </article>
+  </div>
+{% endblock %}
