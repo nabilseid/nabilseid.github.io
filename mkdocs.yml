@@ -8,6 +8,8 @@ use_directory_urls: true
 # Theme
 theme:
   name: material
+  custom_dir: overrides
+
   features:
     - navigation.tabs
     - navigation.sections
