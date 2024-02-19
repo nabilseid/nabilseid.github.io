@@ -45,29 +45,31 @@ Algorithm speed isn’t measured in seconds, but in growth of the number of oper
     - if target is less than the middle value look into items to the left of the middle value
 - Do the above operation when looking for a target in any subset of the items until target is found or run out of items to look into.
 
-```
-SET items to list of sorted items
-SET low to zero
-SET high to number of items - 1  // if zero based indexing
+??? Tip "Binary Search Pseudocode"
 
-INPUT target
-
-WHILE low <= high
-	
-	SET mid to (low + high) / 2 rounded down
-	
-	IF item at position mid equals target THEN
-		OUTPUT mid
-	ELSE IF item at position mid is less than target THEN
-		SET high to mid - 1
-	ELSE
-		SET low to mid + 1
-	ENDIF
-
-ENDWHILE
-
-OUTPUT NULL  // return null if target not in list
-```
+    ```
+    SET items to list of sorted items
+    SET low to zero
+    SET high to number of items - 1  // if zero based indexing
+    
+    INPUT target
+    
+    WHILE low <= high
+    	
+    	SET mid to (low + high) / 2 rounded down
+    	
+    	IF item at position mid equals target THEN
+    		OUTPUT mid
+    	ELSE IF item at position mid is less than target THEN
+    		SET high to mid - 1
+    	ELSE
+    		SET low to mid + 1
+    	ENDIF
+    
+    ENDWHILE
+    
+    OUTPUT NULL  // return null if target not in list
+    ```
 
 ## Array vs Linked List 
 
@@ -93,4 +95,8 @@ OUTPUT NULL  // return null if target not in list
 **Steps**
 
 - Go through the list of items and take out the smallest value
-- Repeat this until all items have been sorted
+- Repeat this until all items have been sorted.
+
+!!! tip "Call Stack"
+    
+    The stack is a data structure that which the first data pulled from the stack is the last data pushed to it. It is used in the computer memory to execute programs. This  stack is called call stack. Whenever a function is called it is pushed to the call stack and when the function returns something it is popped out of the stack.
