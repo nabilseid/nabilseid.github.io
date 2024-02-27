@@ -23,7 +23,7 @@ Common Big O run times
 - `O(log n)` log time - Binary search
 - `O(n)` linear time  - Simple search
 - `O(n * log n)` -
-- `O(n²)` exponential time - selection sort
+- `O(n²)` Quadratic time - selection sort
 - `O(n!)` factorial time - The traveling sales person
 
 Algorithm speed isn’t measured in seconds, but in growth of the number of operations. Instead, we talk about how quickly the run time of an algorithm increases as the size of the input increases.
