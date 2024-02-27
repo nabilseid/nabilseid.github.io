@@ -78,6 +78,18 @@ markdown_extensions:
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
 
+  # formatting
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  
+  # lists
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
 extra_css:
   - stylesheets/extra.css
 
