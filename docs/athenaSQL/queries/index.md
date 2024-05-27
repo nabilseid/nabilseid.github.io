@@ -6,10 +6,10 @@ and `exec()` to execute constracted query on Athena, `exec()` returns a datafram
 
 ## Supported queries
 
-* [SELECT](athenaSQL/quereis/select.md)
-* [INSERT INTO](athenaSQL/quereis/insert_into.md)
-* [CREATE](athenaSQL/quereis/create.md)
-* [CREATE AS](athenaSQL/quereis/create_as.md)
-* [CTE](athenaSQL/quereis/cte.md)
-* [UNLOAD](athenaSQL/quereis/unload.md)
-* [WINDOW](athenaSQL/quereis/window.md)
+* [SELECT](select/)
+* [INSERT INTO](insert_into/)
+* [CREATE](create/)
+* [CREATE AS](create_as/)
+* [CTE](cte/)
+* [UNLOAD](unload/)
+* [WINDOW](window/)
