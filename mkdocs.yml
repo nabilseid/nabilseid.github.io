@@ -12,7 +12,6 @@ theme:
 
   features:
     - navigation.tabs
-    - navigation.sections
     - navigation.path
     - navigation.indexes
     - search.suggest
@@ -44,7 +43,30 @@ theme:
 
 nav:
   - Home: index.md
-  - athenaSQL: athenaSQL/index.md 
+  - athenaSQL: 
+    - athenaSQL/index.md 
+    - Quickstart: athenaSQL/quickstart.md
+    - Databases & Tables: athenaSQL/databases_and_tables.md
+    - Columns: athenaSQL/columns.md
+    - Queries:
+      - athenaSQL/queries/index.md
+      - SELECT: athenaSQL/queries/select.md
+      - INSERT INTO: athenaSQL/queries/insert_into.md
+      - CREATE: athenaSQL/queries/create.md
+      - CREATE AS: athenaSQL/queries/create_as.md
+      - CTE: athenaSQL/queries/cte.md
+      - UNLOAD: athenaSQL/queries/unload.md
+      - WINDOW: athenaSQL/queries/window.md
+    - Functions:
+      - athenaSQL/functions/index.md
+      - Aggregation Functions: athenaSQL/functions/aggregation.md
+      - String Functions: athenaSQL/functions/string.md
+      - Date and Time Functions: athenaSQL/functions/date_time.md
+      - URL Functions: athenaSQL/functions/url.md
+      - Window Functions: athenaSQL/functions/window.md
+      - Unicode Functions: athenaSQL/functions/unicode.md
+      - UUID Functions: athenaSQL/functions/uuid.md
+
   - Cookbooks: 
     - cookbooks/index.md 
     - Bash: cookbooks/bash.md
