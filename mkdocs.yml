@@ -1,4 +1,4 @@
-site_name: African Sun
+site_name: 10 BIRR 
 site_url: https://nabilseid.github.io
 site_description: I blend in my open source projects and notes.
 copyright: Made with ❤️  in Medeja Bet
@@ -45,7 +45,6 @@ nav:
   - Home: index.md
   - athenaSQL: 
     - athenaSQL/index.md 
-    - Quickstart: athenaSQL/quickstart.md
     - Databases & Tables: athenaSQL/databases_and_tables.md
     - Columns: athenaSQL/columns.md
     - Queries:
@@ -77,7 +76,7 @@ nav:
   - The Universe: 
     - the-universe/index.md
     - Our kids and Them Kids: the-universe/our-kids-and-them-kids.md
-  - About: about.md
+  - Portfolio: about.md
 
 markdown_extensions:
   # Admonition
@@ -111,6 +110,13 @@ markdown_extensions:
   - def_list
   - pymdownx.tasklist:
       custom_checkbox: true
+  
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
 
 extra_css:
   - stylesheets/extra.css
