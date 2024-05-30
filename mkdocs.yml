@@ -76,7 +76,7 @@ nav:
   - The Universe: 
     - the-universe/index.md
     - Our kids and Them Kids: the-universe/our-kids-and-them-kids.md
-  - Portfolio: about.md
+  - CV: cv.md
 
 markdown_extensions:
   # Admonition
@@ -120,6 +120,17 @@ markdown_extensions:
 
 extra_css:
   - stylesheets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/nabilseid
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/nabilseid
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/nabilseid
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:<nabeelseid@gmail.com>
 
 plugins:
   - search
