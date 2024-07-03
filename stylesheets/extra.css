@@ -1,0 +1,9 @@
+.font-mono {
+  font-family: monospace, monospace;
+  display: inline-block;
+  text-align: justify;
+}
+
+.subtitle {
+  font-size: small;
+}
