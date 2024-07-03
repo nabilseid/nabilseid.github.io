@@ -6,7 +6,9 @@ hide:
 
 # Welcome
 
-Hello :hand_splayed_tone4:, this is my personal page where I share about my personal projects and their documentations, notes about various things I learnt, my collection of quick fixes, boring write ups, and I casually blog about my solution to a challenge I faced on work or my personal projects.
+Hello :hand_splayed_tone4:, I am Nabil Seid, a senior data engineer. This is my personal page where I share about my personal projects and their documentations, notes about various things I learnt, my collection of quick fixes, boring write ups, and I casually blog about my solution to challenges I faced on work or my personal projects.
+
+<br />
 
 <div class="grid cards" markdown>
 
@@ -29,12 +31,6 @@ Hello :hand_splayed_tone4:, this is my personal page where I share about my pers
 
     - [Bash](cookbooks/bash/)
     - [Python](cookbooks/python/)
-
--   [:fontawesome-solid-blog:{ .lg .middle } __Blogs__](blog/)
-
-    ---
-
-    - [My terminal duo Neovim & Tmux](blog/2024/01/13/my-terminal-duo-neovim--tmux/)
 
 -   [:fontawesome-solid-blog:{ .lg .middle } __Blogs__](blog/)
 
