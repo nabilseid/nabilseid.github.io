@@ -73,10 +73,10 @@ nav:
     - Python: cookbooks/python.md
   - Blog:
     - blog/index.md
-  - The Universe: 
-    - the-universe/index.md
-    - Our kids and Them Kids: the-universe/our-kids-and-them-kids.md
-  - CV: cv.md
+  # - The Universe: 
+  #   - the-universe/index.md
+  #   - Our kids and Them Kids: the-universe/our-kids-and-them-kids.md
+  - Resume: resume.md
 
 markdown_extensions:
   # Admonition
